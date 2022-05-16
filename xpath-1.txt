@@ -1,0 +1,49 @@
+1.
+/alojamientos/casasRurales/casa/@id
+
+2.
+/alojamientos/hoteles/hotel/nombre/text()
+
+3.
+/alojamientos/*/*/web/text()
+
+4.
+/alojamientos/hoteles/hotel[@estrellas=3]/nombre/text()
+
+5.
+/alojamientos/hoteles/hotel[servicios/spa]/nombre/text()
+
+6.
+/alojamientos/casasRurales/casa[instalaciones/piscina]/@id
+
+7.
+/alojamientos/casasRurales/casa[instalaciones/piscina]/@id
+
+8.
+/alojamientos/hoteles/hotel[servicios/desayuno/@precio < 11]/@id
+
+9.
+/alojamientos/casasRurales/casa[@alquilercompleto = "S" and @habitaciones > 4]/@id
+
+10.
+/alojamientos/*/*[*/piscina/@tipo = "niños"]/web/text()
+//piscina[@tipo = "niños"]/../../web/text()
+
+11.
+/alojamientos/*/*[last()]/nombre/text()
+/alojamientos/hoteles/hotel[last()]/nombre/text() | /alojamientos/casasRurales/casa[last()]/nombre/text()
+
+12.
+count(/alojamientos/hoteles/hotel[instalaciones/piscina/@tipo = "adultos"])
+
+13.
+sum(/alojamientos/hoteles/hotel/servicios/desayuno/@precio) 
+div 
+count(/alojamientos/hoteles/hotel[servicios/desayuno/@precio])
+
+14.
+/alojamientos/hoteles/hotel[servicios/spa | servicios/gimnasio]/nombre/text()
+/alojamientos/hoteles/hotel[servicios/spa or servicios/gimnasio]/nombre/text()
+
+15.
+/alojamientos/*/*[substring(localidad/text(), 1, 2) = "36"]/nombre/text() 

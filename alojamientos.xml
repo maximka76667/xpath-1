@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alojamientos>
+   <hoteles>
+      <hotel id="mardevela" estrellas="3">
+            <nombre>Hotel Mardevela</nombre>
+            <localidad>36960</localidad>
+            <web>http://www.hotelmardevela.com</web>
+            <observaciones>Top 10 en TripAdvisor</observaciones>
+            <servicios>
+               <wifi />
+               <desayuno precio="13"/>
+            </servicios>
+      </hotel>
+      <hotel id="paris" estrellas="2">
+             <nombre>Gran Hotel Paris</nombre>
+             <localidad>27002</localidad>
+             <web>http://www.granhotellugo.com</web>
+             <observaciones>Es el hotel mas antiguo de la ciudad. Conserva el ambiente del siglo XIX.</observaciones>
+             <servicios>
+                <wifi />
+                <desayuno precio="10"/>
+             </servicios>
+      </hotel>
+      <hotel id="granrey" estrellas="3">
+             <nombre>Gran Rey</nombre>
+             <localidad>38870</localidad>
+             <web>http://www.hotelgranrey.es</web>
+             <observaciones>En primera línea de playa</observaciones>
+             <servicios>
+                <wifi />
+                <desayuno precio="15"/>
+                <gimnasio />
+             </servicios>
+             <instalaciones>
+                <piscina tipo="adultos"/>
+                <piscina tipo="niños"/>
+                <pistaTenis />
+             </instalaciones>
+      </hotel>
+      <hotel id="granproa" estrellas="3">
+             <nombre>Gran Proa</nombre>
+             <localidad>36992</localidad>
+             <web>http://www.hotelgranproa.com</web>
+             <observaciones>Acceso directo a la playa</observaciones>
+             <servicios>
+                <wifi />
+                <desayuno precio="9"/>
+                <spa />
+                <gimnasio />
+                <animacion />
+             </servicios>
+             <instalaciones>
+                <piscina tipo="adultos"/>
+                <piscina tipo="niños"/>
+                <pistaTenis />
+                <parqueInfantil />
+             </instalaciones>
+      </hotel>
+      <hotel id="lepanto" estrellas="4">
+             <nombre>Lepanto &amp; Spa</nombre>
+             <localidad>27003</localidad>
+             <web>http://www.lepanto.com/lepanto-spa.html</web>
+             <observaciones>En primera línea de playa. Amplias zonas ajardinadas</observaciones>
+             <servicios>
+                <wifi />
+                <desayuno precio="16"/>
+             </servicios>
+             <instalaciones>
+                <piscina tipo="adultos"/>
+                <piscina tipo="niños"/>
+                <piscina tipo="climatizada"/>
+             </instalaciones>
+      </hotel>
+      <hotel id="muxicas"  estrellas="2">
+             <nombre>Gran Hotel Muxicas</nombre>
+             <localidad>15002</localidad>
+             <servicios>
+                <wifi />
+                <desayuno precio="11"/>
+                <gimnasio />
+            </servicios>
+      </hotel>
+  </hoteles>
+   <casasRurales>
+      <casa id="covadoforno" alquilercompleto="S" habitaciones="5">
+            <nombre>Cova do Forno</nombre>
+            <localidad>27004</localidad>
+            <web>http://www.covadoforno.es</web>
+   			<instalaciones>
+               <piscina tipo="adultos"/>
+               <pistaPadel />
+            </instalaciones>
+      </casa>
+	   <casa id="pereira" alquilercompleto="S" habitaciones="4">
+            <nombre>A Pereira</nombre>
+            <localidad>27002</localidad>
+            <web>http://www.apereira_monforte.es</web>
+			   <instalaciones>
+                <piscina tipo="adultos"/>
+                <parrilla />
+            </instalaciones>
+      </casa>
+	   <casa id="maruxa" alquilercompleto="N" habitaciones="7">
+            <nombre>Maruxa</nombre>
+            <localidad>36005</localidad>
+			   <instalaciones>
+                <piscina tipo="adultos"/>
+            </instalaciones>
+      </casa>
+	   <casa id="volvoreta" alquilercompleto="N" habitaciones="6">
+            <nombre>Volvoreta</nombre>
+            <localidad>36009</localidad>
+            <web>http://www.casavolvoreta.es</web>
+      </casa>
+   </casasRurales>
+</alojamientos>
